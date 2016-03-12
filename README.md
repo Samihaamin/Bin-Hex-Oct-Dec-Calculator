@@ -16,3 +16,5 @@ o106
 $ ./calc “-“ -d5 -d3 d
 
 -d2
+
+All use of this code must comply with the [Rutgers University Code of Student Conduct.](http://eden.rutgers.edu/%7Epmj34/media/AcademicIntegrity.pdf)
