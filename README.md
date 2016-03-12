@@ -6,10 +6,13 @@ The program performs addition, subtraction and multiplication in binary, octal, 
 Example input and output:
 
 $ ./calc “*” d5 d10 d
+
 d50
 
 $ ./calc “+” x3C b1010 o
+
 o106
 
 $ ./calc “-“ -d5 -d3 d
+
 -d2
