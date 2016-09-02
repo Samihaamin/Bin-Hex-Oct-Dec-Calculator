@@ -1,20 +1,24 @@
 # Calculator
 Between Binary, Octal, Hexadecimal and Decimal
 
-The program performs addition, subtraction and multiplication in binary, octal, hexadecimal and decimal formats. It consists of two functions : generateDec and Formatter, in addition to main. The first function generates a decimal for the input and then the calculations are performed on the decimals, and the result is passed into the Formatter function , which converts the decimal into the output base.
+The C program performs addition, subtraction and multiplication in binary, octal, hexadecimal and decimal formats, without using the printf formatting built-in in C.
 
 Example input and output:
 
-$ ./calc “*” d5 d10 d
+`$ ./calc “*” d5 d10 d`
 
-d50
+`d50`
 
-$ ./calc “+” x3C b1010 o
 
-o106
+`$ ./calc “+” x3C b1010 o`
 
-$ ./calc “-“ -d5 -d3 d
+`o106`
 
--d2
+
+`$ ./calc “-“ -d5 -d3 d`
+
+`-d2`
+
+This code was written for an assignment for CS211 Computer Architecture class.
 
 All use of this code must comply with the [Rutgers University Code of Student Conduct.](http://eden.rutgers.edu/%7Epmj34/media/AcademicIntegrity.pdf)
